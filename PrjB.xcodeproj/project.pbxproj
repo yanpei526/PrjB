@@ -13,7 +13,8 @@
 		FB2110C01D2375B900EBD0EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB2110BE1D2375B900EBD0EF /* Main.storyboard */; };
 		FB2110C21D2375B900EBD0EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB2110C11D2375B900EBD0EF /* Assets.xcassets */; };
 		FB2110C51D2375B900EBD0EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB2110C31D2375B900EBD0EF /* LaunchScreen.storyboard */; };
-		FB2110D31D2378F100EBD0EF /* YPCommonView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2110D21D2378F100EBD0EF /* YPCommonView.m */; };
+		FB2110DB1D23AB0900EBD0EF /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = FB2110D81D23AB0900EBD0EF /* .gitignore */; };
+		FB2110DC1D23AB0900EBD0EF /* YPCommonView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2110DA1D23AB0900EBD0EF /* YPCommonView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +28,9 @@
 		FB2110C11D2375B900EBD0EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB2110C41D2375B900EBD0EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB2110C61D2375B900EBD0EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FB2110D11D2378F100EBD0EF /* YPCommonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPCommonView.h; sourceTree = "<group>"; };
-		FB2110D21D2378F100EBD0EF /* YPCommonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPCommonView.m; sourceTree = "<group>"; };
+		FB2110D81D23AB0900EBD0EF /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		FB2110D91D23AB0900EBD0EF /* YPCommonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPCommonView.h; sourceTree = "<group>"; };
+		FB2110DA1D23AB0900EBD0EF /* YPCommonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPCommonView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +47,7 @@
 		FB2110A91D2375B900EBD0EF = {
 			isa = PBXGroup;
 			children = (
-				FB2110D01D2378F100EBD0EF /* subm */,
+				FB2110D71D23AB0900EBD0EF /* subm */,
 				FB2110B41D2375B900EBD0EF /* PrjB */,
 				FB2110B31D2375B900EBD0EF /* Products */,
 			);
@@ -83,14 +85,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		FB2110D01D2378F100EBD0EF /* subm */ = {
+		FB2110D71D23AB0900EBD0EF /* subm */ = {
 			isa = PBXGroup;
 			children = (
-				FB2110D11D2378F100EBD0EF /* YPCommonView.h */,
-				FB2110D21D2378F100EBD0EF /* YPCommonView.m */,
+				FB2110D81D23AB0900EBD0EF /* .gitignore */,
+				FB2110D91D23AB0900EBD0EF /* YPCommonView.h */,
+				FB2110DA1D23AB0900EBD0EF /* YPCommonView.m */,
 			);
-			name = subm;
-			path = ../subm;
+			path = subm;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +152,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB2110DB1D23AB0900EBD0EF /* .gitignore in Resources */,
 				FB2110C51D2375B900EBD0EF /* LaunchScreen.storyboard in Resources */,
 				FB2110C21D2375B900EBD0EF /* Assets.xcassets in Resources */,
 				FB2110C01D2375B900EBD0EF /* Main.storyboard in Resources */,
@@ -165,7 +168,7 @@
 			files = (
 				FB2110BD1D2375B900EBD0EF /* ViewController.m in Sources */,
 				FB2110BA1D2375B900EBD0EF /* AppDelegate.m in Sources */,
-				FB2110D31D2378F100EBD0EF /* YPCommonView.m in Sources */,
+				FB2110DC1D23AB0900EBD0EF /* YPCommonView.m in Sources */,
 				FB2110B71D2375B900EBD0EF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -315,6 +318,7 @@
 				FB2110CB1D2375B900EBD0EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
